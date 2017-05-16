@@ -1,0 +1,6 @@
+services:
+ image: employee
+ ports:
+  - "8080"
+ links:
+  - mongodb
